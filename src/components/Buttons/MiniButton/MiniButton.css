@@ -1,0 +1,35 @@
+.Minibutton {
+    width: 50px;
+    height: 50px;
+    margin-top: 1em;
+    display: flex;
+    background-color: #16574F ;
+    border: solid 1px hsl(213, 17%, 20%);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 10px 0 rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+.Minibutton:hover {
+    
+    background-color: #40A89B;
+    border: solid 1px #19564F;
+    box-shadow: 
+        2px 0 10px 0 rgba(140, 192, 189, 0.12),
+        2px 0 10px 0 rgba(168, 188, 189, 0.09);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.Minibutton:hover fa{
+    color: #19564F;
+}
+
+.Minibutton:active {
+    background-color:#19564F;
+    
+}
+

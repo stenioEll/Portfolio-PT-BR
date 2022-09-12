@@ -1,0 +1,61 @@
+main.ContSkill {
+    margin: 0;
+    background-color: #171C22;
+    min-height: 700px;
+    
+}
+
+aside.conteudoSkill {
+    margin: 0;
+    width: 90%;
+    max-width: 980px;
+    height: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+aside.textosSkill h1{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-align: justify;
+    white-space: nowrap;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.skillgreen {
+    color: #33D9A9;
+    font-weight: 400;
+}
+
+aside.conteudoSmallCards {
+    width: 95%;
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 30px;
+    padding-bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    aside.conteudoSkill {
+        margin: 0;
+        width: 90%;
+        max-width: 980px;
+        height: 100%;
+        padding-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

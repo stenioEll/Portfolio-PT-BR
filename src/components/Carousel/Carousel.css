@@ -1,0 +1,72 @@
+.contCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+
+.controls-wrapper {
+    width: 100%;
+}
+
+.carousel-wrapper {
+    width: 90%;
+    
+}
+
+/* square buttons */
+.rec.rec-arrow {
+    border-radius: 50%;
+    background-color: #27A782;
+    color: #20272F;
+    font-size: 1rem;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+    background-color: #40A89B;
+    border: solid 1px #19564F;
+    box-shadow: 
+        2px 0 10px 0 rgba(140, 192, 189, 0.12),
+        2px 0 10px 0 rgba(168, 188, 189, 0.09);
+    color: #0b2b22;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+.rec.rec-arrow:active {
+    background-color: #19564F;
+}
+/* hide disabled buttons */
+
+.rec.rec-arrow:disabled {
+    visibility: visible;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+    
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    background-color: #40A89B;
+    box-shadow: 
+        2px 0 10px 0 rgba(140, 192, 189, 0.12),
+        2px 0 10px 0 rgba(168, 188, 189, 0.09);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+aside.contCardSmall {
+    background-color: #20272F;
+    /*width: 26%;*/
+    width: 183px;
+    height: 183px;
+    border-radius: 14px;
+    padding: 15px;
+    /*padding: 2%;*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 4px 4px -2px #14181d;
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+    
+
+}
+
+aside.contCardSmall img {
+    width: 99px;
+    height: 89px;    
+    /*width: 45%;
+    height: 35%;
+    width: 100px;
+    height: 99px;*/
+}
+
+aside.textCardSmall h1 {
+    font-family: 'Oxygen';
+    Font-style: Bold;
+    Font-size: 0.8rem;
+    text-align: center;
+    font-weight: 100;
+     
+}
+
+aside.textCardSmall :nth-child(1) {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
+
+
+aside.contCardSmall:hover{
+    background-color: #40A89B;
+    border: solid 1px #19564F;
+    box-shadow: 
+        4px 0 10px 3px rgba(165, 228, 225, 0.12),
+        4px 0 10px 3px rgba(182, 203, 204, 0.09);
+    color: #FFFFFF;
+    transform: scale(1.07);
+    transition: all 0.5s;
+    
+    
+}
+
+/*@media screen and (max-width: 1130px) {
+    aside.contCard {
+        width: 31%;
+        height: 300px;
+        margin-bottom: 5%;
+    }
+
+}*/

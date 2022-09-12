@@ -1,0 +1,34 @@
+main.ContProjects {
+    margin: 0;
+    background-color: #161b20;
+    min-height: 700px;
+    overflow-x: hidden;
+}
+
+aside.conteudoProjects {
+    margin: 0;
+    width: 90%;
+    max-width: 980px;
+    height: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+aside.textosProjects h1{
+    width: 90%;
+    max-width: 980px;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-align: justify;
+    white-space: nowrap;
+    color: #fff;
+    padding-top: 90px;
+}
+
+.skillgreen {
+    color: #33D9A9;
+    font-weight: 400;
+}

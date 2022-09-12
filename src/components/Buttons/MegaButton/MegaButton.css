@@ -1,0 +1,64 @@
+.Megabutton {
+    width: 35em;
+    height: 10vh;
+    margin-top: 1em;
+    display: flex;
+    background-color: #171C22 ;
+    border: solid 1px hsl(213, 17%, 20%);
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 10px 0 rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+.txt{
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+
+
+.Megabutton:hover {
+    
+    background-color: #40A89B;
+    border: solid 1px #19564F;
+    box-shadow: 
+        2px 0 10px 0 rgba(140, 192, 189, 0.12),
+        2px 0 10px 0 rgba(168, 188, 189, 0.09);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.Megabutton:hover fa{
+    color: #19564F;
+}
+
+.Megabutton:active {
+    background-color:#19564F;
+    
+}
+
+@media screen and (max-width: 995px) {
+    .Megabutton {
+        width: 25em;
+        height: 10vh;
+        margin-top: 1em;
+        display: flex;
+        background-color: #171C22 ;
+        border: solid 1px hsl(213, 17%, 20%);
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 
+            2px 0 10px 0 rgba(0, 0, 0, 0.12),
+            2px 0 10px 0 rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+    }
+    .txt{
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    
+    
+}

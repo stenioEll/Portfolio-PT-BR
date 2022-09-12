@@ -1,0 +1,153 @@
+
+main.ContContato {
+    height: auto;
+    margin: 0;
+    background-color: #20272F;
+    overflow-x: hidden;
+}
+
+aside.conteudoContato {
+    width: 90%;
+    max-width: 980px; 
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+aside.textoContact h1 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 350;
+    white-space: nowrap;
+    margin-bottom: 30px;
+
+
+}
+
+aside.textoContact span {
+    color: #33D9A9;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+/*W: 437px
+H: 434px
+*/
+
+aside.conteudoContato img {
+    width: 400px;
+    height: 397px;
+    margin-left: 80px;
+    
+}
+
+footer.fooContato {
+    height: auto;
+    margin: 0;
+    background-color: #303A46;
+}
+
+aside.fooConteudo {
+    width: 90%;
+    max-width: 980px; 
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+aside.textoFooter h1 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+aside.fooConteudo img {
+    height: 25px;
+}
+aside.textoFooter span {
+    color: #33D9A9;
+    font-weight: 400;
+}
+
+aside.miniBotaosarea {
+    display: flex;
+    flex-direction: column;
+}
+aside.miniBotaosarea h1 {
+    color: #d4d3d3;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+aside.botoesFoo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 870px) {
+    .ContContato .conteudoContato{
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    aside.conteudoContato img {
+        order: -1;
+        margin-left: 30%;
+        margin-bottom: 35px;
+        width: min(350px, 75vw);
+        margin-bottom: 2rem;
+
+    }
+    aside.ContContato h1 {
+        font-size: 40%;
+        text-align: center;
+    }
+
+    aside.fooConteudo {
+        width: 90%;
+        max-width: 980px; 
+        margin: auto;
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    aside.textoFooter h1 {
+        margin: 10px 0;
+        font-size: 0.9rem;
+        
+    }
+    aside.miniBotaosarea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*aside.botaos:nth-child(2) {
+        margin-right: 100px;
+    }*/
+}
+
+

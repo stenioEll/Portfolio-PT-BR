@@ -1,0 +1,82 @@
+main.cardsArea {
+    margin: 0;
+    background-color: #171C22;
+    min-height: 600px;
+    
+}
+
+aside.contentCards {
+    width: 90%;
+    max-width: 980px; 
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+aside.textos h1 {    
+    padding: 3px 0;
+    margin-top: 30px;
+    
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: justify;
+    white-space: nowrap;
+    
+    color: #fff;
+
+}
+
+.txG {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+
+
+
+.verde {
+    color: #33D9A9;
+}
+
+aside.cards {
+    width: 90%;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 110px;
+    padding-bottom: 90px;  
+}
+
+
+@media screen and (max-width: 1130px) {
+    aside.contentCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    
+    aside.textos h1 {
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    aside.cards {
+        display: flex;
+        gap: 25px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;    
+        
+    }
+}
+
