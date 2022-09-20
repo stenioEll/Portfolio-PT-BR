@@ -1,6 +1,6 @@
 .Megabutton {
-    width: 35em;
-    height: 10vh;
+    width: 470px;
+    height: 70px;
     margin-top: 1em;
     display: flex;
     background-color: #171C22 ;
@@ -41,8 +41,8 @@
 
 @media screen and (max-width: 995px) {
     .Megabutton {
-        width: 25em;
-        height: 10vh;
+        width: 20em;
+        height: 8vh;
         margin-top: 1em;
         display: flex;
         background-color: #171C22 ;

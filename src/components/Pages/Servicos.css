@@ -1,17 +1,20 @@
 main.cardsArea {
     margin: 0;
     background-color: #171C22;
-    min-height: 600px;
+    min-height: 100vh;
     
 }
 
 aside.contentCards {
     width: 90%;
-    max-width: 980px; 
+     
     margin: auto;
-    padding: 80px 0;
+    padding: 100px 0;
     display: flex;
+    justify-content: center;
+    
     flex-direction: column;
+
 
 }
 
@@ -19,7 +22,7 @@ aside.contentCards {
 aside.textos h1 {    
     padding: 3px 0;
     margin-top: 30px;
-    
+    margin-left: 5%;
     margin-bottom: 50px;
     font-size: 1.4rem;
     font-weight: 300;
@@ -44,12 +47,15 @@ aside.textos h1 {
 
 aside.cards {
     width: 90%;
-    max-width: 980px;
+    margin: auto;
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 110px;
+    grid-gap: 8%;
     padding-bottom: 90px;  
+    
 }
+
 
 
 @media screen and (max-width: 1130px) {

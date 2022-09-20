@@ -1,27 +1,34 @@
 
 main.conteudoSobre {
-    min-height: 600px;
+    min-height: 100vh;
     margin: 0;
     background-color: #20272F;
     overflow-x: hidden;
 }
 
 aside.containerSobre {
-    width: 90%;
+    /*width: 90%;
     max-width: 980px; 
     margin: auto;
     padding: 100px 0;
+    display: flex;*/
+    width: 90%;
+    margin: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 934px;
 }
 /*Textos e botões*/
 aside.containerSobre h1 {
-    padding: 0;
-    margin: 0;
+    
     color: #fff;
-    text-align: justify;
     font-size: 1.1rem;
     font-weight: 300;
-
+    
+    
+    
 
 }
 
@@ -47,13 +54,14 @@ aside.containerSobre span:nth-child(2) {
 aside.botaosSobre {
     margin-top: 12px;
     display: flex;
-    gap: 15px;
+    
+    
 
 }
 
 aside.containerSobre img {
     width: 400px;
-    
+    padding: 20px;
     margin: auto;
 }
 

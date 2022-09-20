@@ -25,8 +25,8 @@ export const Sobre = () => {
         <aside data-aos="fade-left" className="textoSobre">
           <h1 className='Titulo'>Sobre</h1>
           <h1>Estou iniciando minha carreira de desenvolvedor, sou estudante do curso de <span className='green'>Engenharia da Computação na Universidade Federal da Paraíba.</span><br /> <br />
-              Atualmente tenho conhecimento em <span className='green'> HTML5, CSS, JavaScript, C, C++, TypeScript, Git, GitHub, NodeJs, BootStrap, Figma, React Native</span> e <span className="green">ReactJS</span> , banco de dados como <span className="green">Firebase para integração do Backend.</span><br /> <br />
-              Venho estudando <span className="green">ReactJS</span>  e <span className="green">ReactNative</span>  e colocando em prática os ensinamentos adquiridos fazendo alguns projetos, pessoais e de cursos.</h1> 
+              Atualmente tenho conhecimento em <span className='green'> HTML5, CSS, JavaScript, C, C++, TypeScript, Git, GitHub, NodeJs, BootStrap, Figma, React Native</span> e <span className="green">ReactJS</span> , banco de dados como <span className="green">Firebase, Postman e também Sprint para integração do Backend.</span><br /> <br />
+              Venho estudando <span className="green">ReactJS</span>  e <span className="green">ReactNative</span>  e colocando em prática os ensinamentos adquiridos fazendo alguns projetos, pessoais e de cursos, ademais possuo <span className="green">inglês avançado</span>.</h1> 
             <aside className="botaosSobre">
               <Button link={Curriculo} icon="fa-brands fa-file fa-lg" title= "Currículo"></Button>
             </aside>
